@@ -1,0 +1,266 @@
+{
+    // Soal No. 1
+    const name = 'Fachra Nur Ridwan'
+    const email = 'fachranurridwan@gmail.com'
+    const noHp = 85156438930
+    const umur = 23
+    const tanggalLahir = 'Cimahi, 23 Februari 2001'
+    const alamat = 'Jl. Kaum Kulon No. 19, Cimahi Tengah'
+    const kota = 'Kota Cimahi'
+    const provinsi = 'Jawa Barat'
+    const kodepos = 40525
+
+    const programingExperience = ['html', 'css', 'php'] // array
+
+    const sekolahDasar = [
+        { 
+            sekolah:'SDN Cimahi Mandiri 5', 
+            tingkat:'SD', 
+            tahunMulai:'2007', 
+            tahunBerakhir:'2013', 
+            jurusan:null,
+            direkomenadikan:true,
+            lokasi:'Cimahi',
+            pengajarFavorit: ['Pa Dadang', 'Bu Lusi'],
+            materiFavorit: [
+                {
+                    nama:'Pencak Silat',
+                    date:'2009-2012',
+                    pengajar:'Pa Nanang',
+                    alasan: ['Seru', 'Menyenangkan'],
+                    apakahSulit:false,
+                },
+                {
+                    nama:'PAI',
+                    date:'2009-2013',
+                    pengajar:'Pa Gunawan',
+                    alasan: ['Seru', 'Menyenangkan'],
+                    apakahSulit:false,
+                },
+            ],
+        },
+    ];
+    const sekolahMenengah = [
+        { 
+            sekolah:'SMPN 5 Cimahi', 
+            tingkat:'SMP', 
+            tahunMulai:'2013', 
+            tahunBerakhir:'2016', 
+            jurusan:null,
+            direkomenadikan:false,
+            lokasi:'Cimahi',
+            pengajarFavorit: ['Pa Didih', 'Bu Jejeh'],
+            materiFavorit: [
+                {
+                    nama:'Bahasa Sunda',
+                    date:'2013-2016',
+                    pengajar:'Pa Didih',
+                    alasan: ['Seru', 'Menyenangkan'],
+                    apakahSulit:false,
+                },
+                {
+                    nama:'PKN',
+                    date:'2013-2016',
+                    pengajar:'Pa Jejeh',
+                    alasan: ['Seru', 'Menyenangkan'],
+                    apakahSulit:false,
+                },
+            ],
+        },
+    ];
+    const sekolahKejuruan = [
+        { 
+            sekolah:'SMKN 2 Cimahi', 
+            tingkat:'SMP', 
+            tahunMulai:'2016', 
+            tahunBerakhir:'2019', 
+            jurusan:'RPL',
+            direkomenadikan:false,
+            lokasi:'Cimahi',
+            pengajarFavorit: ['Pa Asep', 'Pa Endro'],
+            materiFavorit: [
+                {
+                    nama:'Lingkungan Hidup',
+                    date:'2016-2019',
+                    pengajar:'Pa Asep',
+                    alasan: ['Jarang Masuk', 'Belajar Diluar'],
+                    apakahSulit:false,
+                },
+                {
+                    nama:'Olahraga',
+                    date:'2016-2019',
+                    pengajar:'Pa Endro',
+                    alasan: ['Beraktifitas Diluar', 'Seru'],
+                    apakahSulit:false,
+                },
+            ],
+        },
+    ];
+
+    const golonganDarah = 'Golongan Darah: O'
+    const hobi = ['Futsal', 'Berenang', 'Main Game']
+    const makananFavorit = [
+        {
+            nama:'Nasi Goreng',
+            asal:'Indonesia',
+        },
+        {
+            nama:'Soto Bandung',
+            asal:'Bandung',
+        },
+        {
+            nama:'Sate Madura',
+            asal: 'Madura',
+        },
+
+    ];
+
+
+
+    console.log(name);
+    console.log(email);
+    console.log(noHp);
+    console.log(umur);
+    console.log(tanggalLahir);
+    console.log(alamat);
+    console.log(kota);
+    console.log(provinsi);
+    console.log(kodepos);
+    console.log(programingExperience);
+    console.log(sekolahDasar);
+    console.log(sekolahMenengah);
+    console.log(sekolahKejuruan);
+    console.log(golonganDarah);
+    console.log(hobi);
+    
+} 
+
+// Soal No. 2
+
+const biodata = {
+    nama: 'Fachra Nur Ridwan',
+    email: 'fachranurridwan@gmail.com',
+    noHp: 85156438930,
+    umur: 23,
+    tanggalLahir: 'Cimahi, 23 Februari 2001',
+    alamat: 'Jl. Kaum Kulon No. 19, Cimahi Tengah',
+    kota: 'Kota Cimahi',
+    provinsi: 'Jawa Barat',
+    kodepos: 40525,
+    programingExperience: ['html', 'css', 'php'],
+    sekolahDasar: [
+        { 
+            sekolah:'SDN Cimahi Mandiri 5', 
+            tingkat:'SD', 
+            tahunMulai:'2007', 
+            tahunBerakhir:'2013', 
+            jurusan:null,
+            direkomenadikan:true,
+            lokasi:'Cimahi',
+            pengajarFavorit: ['Pa Dadang', 'Bu Lusi'],
+            materiFavorit: [
+                {
+                    nama:'Pencak Silat',
+                    date:'2009-2012',
+                    pengajar:'Pa Nanang',
+                    alasan: ['Seru', 'Menyenangkan'],
+                    apakahSulit:false,
+                },
+                {
+                    nama:'PAI',
+                    date:'2009-2013',
+                    pengajar:'Pa Gunawan',
+                    alasan: ['Seru', 'Menyenangkan'],
+                    apakahSulit:false,
+                },
+            ],
+        },
+    ],
+    sekolahMenengah: [
+        { 
+            sekolah:'SMPN 5 Cimahi', 
+            tingkat:'SMP', 
+            tahunMulai:'2013', 
+            tahunBerakhir:'2016', 
+            jurusan:null,
+            direkomenadikan:false,
+            lokasi:'Cimahi',
+            pengajarFavorit: ['Pa Didih', 'Bu Jejeh'],
+            materiFavorit: [
+                {
+                    nama:'Bahasa Sunda',
+                    date:'2013-2016',
+                    pengajar:'Pa Didih',
+                    alasan: ['Seru', 'Menyenangkan'],
+                    apakahSulit:false,
+                },
+                {
+                    nama:'PKN',
+                    date:'2013-2016',
+                    pengajar:'Pa Jejeh',
+                    alasan: ['Seru', 'Menyenangkan'],
+                    apakahSulit:false,
+                },
+            ],
+        },
+    ],
+    sekolahKejuruan: [
+        { 
+            sekolah:'SMKN 2 Cimahi', 
+            tingkat:'SMP', 
+            tahunMulai:'2016', 
+            tahunBerakhir:'2019', 
+            jurusan:'RPL',
+            direkomenadikan:false,
+            lokasi:'Cimahi',
+            pengajarFavorit: ['Pa Asep', 'Pa Endro'],
+            materiFavorit: [
+                {
+                    nama:'Lingkungan Hidup',
+                    date:'2016-2019',
+                    pengajar:'Pa Asep',
+                    alasan: ['Jarang Masuk', 'Belajar Diluar'],
+                    apakahSulit:false,
+                },
+                {
+                    nama:'Olahraga',
+                    date:'2016-2019',
+                    pengajar:'Pa Endro',
+                    alasan: ['Beraktifitas Diluar', 'Seru'],
+                    apakahSulit:false,
+                },
+            ],
+        },
+    ],
+
+    golonganDarah: 'Golongan Darah: O',
+    hobi: ['Futsal', 'Berenang', 'Main Game'],
+    makananFavorit: [
+        {
+            nama:'Nasi Goreng',
+            asal:'Indonesia',
+        },
+        {
+            nama:'Soto Bandung',
+            asal:'Bandung',
+        },
+        {
+            nama:'Sate Madura',
+            asal: 'Madura',
+        },
+    ]
+}
+
+
+//console.log(biodata);
+
+// Soal No.3
+
+//console.log("Nama lengkap:", biodata.nama);
+//console.log("No Hp:", biodata.noHp);
+//console.log("Programing Experience:", biodata.programingExperience);
+//console.log("Makanan favorit:", biodata.makananFavorit[0].nama);
+//console.log("Hobi:", biodata.hobi[2]);
+//console.log("Materi Favorit:", biodata.sekolahKejuruan[biodata.sekolahKejuruan.length - 1].materiFavorit[0].nama,"- Pengajar :",
+//biodata.sekolahKejuruan[biodata.sekolahKejuruan.length - 1].materiFavorit[0].pengajar
+//);
